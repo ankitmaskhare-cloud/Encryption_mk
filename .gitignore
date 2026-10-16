@@ -1,0 +1,59 @@
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- Firebase / GCP service accounts ---
+*service-account*.json
+*firebase-adminsdk*.json
+*firebase-service-account*.json
+serviceAccountKey.json
+service-account.json
+secrets/
+credentials/
+
+# --- Keys / certs ---
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / runtime ---
+*.log
+logs/
+tmp/
+*.sqlite
+*.db
+
+# --- Archives ---
+*.zip
+*.tar.gz
